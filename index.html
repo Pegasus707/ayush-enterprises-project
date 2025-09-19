@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Enterprises - Elite Marine Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">⚓ Ayush Enterprises</a>
+            <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></nav>
+            <div class="user-actions">
+                <a href="cart.html" class="cart-link">Cart <span id="cart-counter">0</span></a>
+                <div id="auth-links"><a href="login.html" class="auth-btn">Login</a><a href="signup.html" class="auth-btn primary">Sign Up</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero"><div class="hero-text"><h1>Engineering the Future of Marine Technology</h1><p>Reliable components for the most demanding maritime operations.</p><a href="#specialities" class="cta-button">Discover Our Strengths</a></div></section>
+        <section id="specialities" class="hidden"><div class="container"><h2>The Ayush Enterprises Edge</h2><p class="section-subtitle">We deliver more than just parts; we deliver peace of mind.</p><div class="specialities-grid"><div class="speciality-card"><div class="speciality-icon">⚙️</div><h3>Precision Engineering</h3><p>Every component is crafted to exact specifications for optimal performance and integration.</p></div><div class="speciality-card"><div class="speciality-icon">🌊</div><h3>Deep Sea Durability</h3><p>Our parts are forged from corrosion-resistant alloys, built to withstand the harshest marine environments.</p></div><div class="speciality-card"><div class="speciality-icon">🌍</div><h3>Global Logistics</h3><p>We provide swift, reliable delivery to any port worldwide, minimizing your operational downtime.</p></div></div></div></section>
+        <section id="products" class="hidden">
+    <div class="container">
+        <h2>Our Product Catalog</h2>
+        <p class="section-subtitle">An extensive range of mission-critical marine equipment.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/propeller.jpg" alt="Marine Propeller" class="image-default">
+                    <img src="images/propeller_hover.jpg" alt="Marine Propeller Alternate View" class="image-hover">
+                </div>
+                <h3>Bronze Marine Propeller</h3>
+                <p class="price">₹42,500</p>
+                <button class="add-to-cart-btn" data-name="Bronze Marine Propeller" data-price="42500">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/engine.jpg" alt="Ship Engine" class="image-default">
+                    <img src="images/engine_hover.jpg" alt="Ship Engine Alternate View" class="image-hover">
+                </div>
+                <h3>V12 Marine Diesel Engine</h3>
+                <p class="price">₹8,50,000</p>
+                <button class="add-to-cart-btn" data-name="V12 Marine Diesel Engine" data-price="850000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/winch.jpg" alt="Anchor Winch" class="image-default">
+                    <img src="images/winch_hover.jpg" alt="Anchor Winch Alternate View" class="image-hover">
+                </div>
+                <h3>Hydraulic Anchor Winch</h3>
+                <p class="price">₹75,000</p>
+                <button class="add-to-cart-btn" data-name="Hydraulic Anchor Winch" data-price="75000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/radio.jpg" alt="Marine VHF Radio" class="image-default">
+                    <img src="images/radio_hover.jpg" alt="Marine VHF Radio Alternate View" class="image-hover">
+                </div>
+                <h3>Marine VHF Radio</h3>
+                <p class="price">₹22,000</p>
+                <button class="add-to-cart-btn" data-name="Marine VHF Radio" data-price="22000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/periscope.jpg" alt="Periscope" class="image-default">
+                    <img src="images/periscope_hover.jpg" alt="Periscope Alternate View" class="image-hover">
+                </div>
+                <h3>Optical Periscope Assembly</h3>
+                <p class="price">₹3,15,000</p>
+                <button class="add-to-cart-btn" data-name="Optical Periscope Assembly" data-price="315000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/valve.jpg" alt="Ballast Tank Valve" class="image-default">
+                    <img src="images/valve_hover.jpg" alt="Ballast Tank Valve Alternate View" class="image-hover">
+                </div>
+                <h3>Ballast Control Valve</h3>
+                <p class="price">₹18,500</p>
+                <button class="add-to-cart-btn" data-name="Ballast Control Valve" data-price="18500">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="terms.html">Terms & Conditions</a> |
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="shipping-returns.html">Shipping & Returns</a>
+        </div>
+        <p>Ayush Enterprises | Engineering the Seas | Mumbai, Maharashtra</p>
+        <p>© 2025 All Rights Reserved.</p>
+    </div>
+</footer>
+    <div id="toast-notification"></div>
+    <script src="script.js"></script>
+</body>
+</html>
